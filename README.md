@@ -30,7 +30,6 @@ train_cl_runner.py            shared CL training entrypoint
 train_noCL_square_ppo.py      baseline training script
 train_CL_small2large_square_ppo.py
 train_CL_large2small_square_ppo.py
-test_model.py                 evaluation / rendering / GIF export for trained models
 ```
 
 ## Install
