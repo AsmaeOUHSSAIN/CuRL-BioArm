@@ -1,0 +1,8 @@
+myosuite
+gymnasium
+stable-baselines3>=2.0.0
+torch
+numpy
+tensorboard
+tqdm
+rich
