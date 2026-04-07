@@ -84,8 +84,8 @@ experiments/<run_name>/
 
 |  | No Curriculum Learning | Curriculum Learning |
 |---|:---:|:---:|
-| **Rectangle tall** | ![](docs/shape_rectangle_tall_nocl.gif) | ![](docs/shape_rectangle_tall_cl.gif) |
-| **Rectangle wide** | ![](docs/shape_rectangle_wide_nocl.gif) | ![](docs/shape_rectangle_wide_cl.gif) |
+| **tall Rectangle** | ![](docs/shape_rectangle_tall_nocl.gif) | ![](docs/shape_rectangle_tall_cl.gif) |
+| **wide Rectangle** | ![](docs/shape_rectangle_wide_nocl.gif) | ![](docs/shape_rectangle_wide_cl.gif) |
 | **Star** | ![](docs/shape_star_nocl.gif) | ![](docs/shape_star_cl.gif) |
 | **Triangle** | ![](docs/shape_triangle_nocl.gif) | ![](docs/shape_triangle_cl.gif) |
 | **Forward direction** | ![](docs/direction_forward_nocl.gif) | ![](docs/direction_forward_cl.gif) |
