@@ -79,13 +79,5 @@ experiments/<run_name>/
 └── tensorboard/
 ```
 
-## Final evaluation
 
-After training, every run is evaluated on the same three held-out
-configurations defined in `constants.FINAL_EVAL_LEVELS` (large/no-rot,
-medium/mid-rot, small/high-rot) so the three strategies can be compared
-fairly.
 
-## License
-
-MIT — see [LICENSE](LICENSE).
