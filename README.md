@@ -14,7 +14,7 @@ vertical position are randomized within configurable ranges.
 |---|---|
 | `train_noCL_square_ppo.py` | Baseline: parameters sampled uniformly from the full ranges |
 | `train_CL_small2large_square_ppo.py` | Curriculum: small squares first, then progressively larger and more rotated |
-| `train_CL_large2small_square_ppo.py` | Curriculum: large squares first, then progressively smaller and more rotated|
+| `train_CL_large2small_square_ppo.py` | Curriculum: large squares first, then progressively smaller and more rotated |
 
 Curriculum runs advance to the next level when the eval success rate on
 the current level exceeds a threshold (configured per level).
@@ -30,6 +30,7 @@ train_cl_runner.py            shared CL training entrypoint
 train_noCL_square_ppo.py      baseline training script
 train_CL_small2large_square_ppo.py
 train_CL_large2small_square_ppo.py
+test_model.py                 evaluation / rendering / GIF export for trained models
 ```
 
 ## Install
@@ -79,5 +80,13 @@ experiments/<run_name>/
 └── tensorboard/
 ```
 
+## Qualitative results
 
-
+|  | No Curriculum Learning | Curriculum Learning |
+|---|:---:|:---:|
+| **Rectangle tall** | ![](docs/shape_rectangle_tall_nocl.gif) | ![](docs/shape_rectangle_tall_cl.gif) |
+| **Rectangle wide** | ![](docs/shape_rectangle_wide_nocl.gif) | ![](docs/shape_rectangle_wide_cl.gif) |
+| **Star** | ![](docs/shape_star_nocl.gif) | ![](docs/shape_star_cl.gif) |
+| **Triangle** | ![](docs/shape_triangle_nocl.gif) | ![](docs/shape_triangle_cl.gif) |
+| **Forward direction** | ![](docs/direction_forward_nocl.gif) | ![](docs/direction_forward_cl.gif) |
+| **Reversed direction** | ![](docs/direction_reversed_nocl.gif) | ![](docs/direction_reversed_cl.gif) |
