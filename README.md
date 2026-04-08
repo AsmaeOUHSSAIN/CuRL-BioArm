@@ -24,7 +24,6 @@ the current level exceeds a threshold (configured per level).
 ```
 constants.py                  shared task constants & final eval levels
 shape_tracing_myoarm.py       gym wrapper that turns myoArmReach into a tracing task
-curriculum.py                 CurriculumState, wrapper, and eval callback
 utils.py                      MetricsTracker + SB3 callbacks + final-evaluation helper
 train_cl_runner.py            shared CL training entrypoint
 train_noCL_square_ppo.py      baseline training script
